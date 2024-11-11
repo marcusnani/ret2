@@ -1,0 +1,145 @@
+/* Estilos Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #0d0d0d;
+    color: #f5f5f5;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+h1, h2, h3 {
+    letter-spacing: 2px;
+}
+a {
+    color: #0abde3;
+    text-decoration: none;
+}
+
+/* Cabeçalho */
+.header {
+    background: linear-gradient(135deg, #0f0f0f 50%, #1e1e1e);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 0 0 20px #cf0808;
+}
+.logo {
+    width: 100px;
+    border-radius: 40%;
+    margin-right: 20px;
+}
+.header h1 {
+    font-size: 3em;
+    color: #ffee03ef;
+    text-shadow: 0 0 10px #fafafa9d;
+}
+
+/* Biografia */
+.biografia {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #121212;
+}
+.biografia h2 {
+    font-size: 2.5em;
+    color: #ffee03ef;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #fafafa9d;
+}
+.biografia p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #d3d3d3;
+}
+
+/* Discografia */
+.discografia {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #0d0d0d;
+    box-shadow: 0 -10px 20px #fbff00;
+}
+.discografia h2 {
+    font-size: 2.5em;
+    color: #ffee03ef;
+    margin-bottom: 40px;
+    text-shadow: 0 0 10px #fafafa9d;
+}
+.albuns {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.album {
+    margin: 20px;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid #ffee03ef;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #1e1e1e;
+}
+.album img {
+    width: 100%;
+    border-radius: 10px;
+}
+.album:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #ffee03ef;
+}
+.album h3 {
+    margin: 20px 0 10px;
+    color: #ffee03ef;
+}
+.album p {
+    color: #d3d3d3;
+}
+
+/* Seção de Vídeos/Músicas */
+.midia {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #121212;
+}
+.midia h2 {
+    font-size: 2.5em;
+    color: #ffee03ef;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #ffee03ef;
+}
+.midia iframe {
+    border: 3px solid #ffee03ef;
+    border-radius: 10px;
+}
+
+/* Datas de Turnê */
+.turne {
+    padding: 50px 20px;
+    background-color: #0d0d0d;
+    text-align: center;
+    box-shadow: 0 -10px 20px #ffee03ef;
+}
+.turne h2 {
+    font-size: 2.5em;
+    color: #ffee03ef;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #fafafa9d;
+}
+.turne ul {
+    list-style: none;
+    padding: 0;
+    color: #d3d3d3;
+}
+.turne li {
+    margin-bottom: 10px;
+}
+.mapa {
+    margin-top: 20px;
+}
+
